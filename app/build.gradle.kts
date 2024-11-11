@@ -30,6 +30,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -37,7 +41,6 @@ dependencies {
     implementation(libs.circleimageview)
     implementation(libs.firebase.auth)
     implementation(libs.play.services.auth)
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

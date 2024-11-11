@@ -2,6 +2,7 @@ package com.example.loginproject.UI.VIewModels;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
 
 import com.example.loginproject.Models.Presupuesto;
 import com.example.loginproject.Repositories.BudgetRepository;
@@ -13,7 +14,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BudgetVM {
+public class BudgetVM extends ViewModel {
     private BudgetRepository repository;
     private MutableLiveData<List<Presupuesto>> budgetLiveData;
     public BudgetVM() {
