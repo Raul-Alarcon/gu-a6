@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">loginProject</string>
-    <string name="default_web_client_id" translatable="false">TU_ID_DE_CLIENTE_WEB</string>
+    <string name="default_web_client_id">your-web-client-id</string>
 </resources>

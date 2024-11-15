@@ -37,7 +37,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.circleimageview)
     implementation(libs.firebase.auth)
     implementation(libs.play.services.auth)
@@ -47,6 +46,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.firebase.firestore)
     implementation(libs.glide)
+    implementation(libs.navigation.runtime)
+    implementation(libs.navigation.ui)
     annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
